@@ -1,11 +1,5 @@
 <?php
-header('Content-type:text/html;charset=utf-8');
-$servername="localhost";
-$username="root";
-$password="";
-$dbname="feather";
-
-$conn=new mysqli($servername,$username,$password,$dbname);
+require "../conn.php";
 
 $posts=$_POST;
 

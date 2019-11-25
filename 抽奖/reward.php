@@ -95,6 +95,7 @@ for($i=$lucky;$i<$count;$i++)
 // 程序结束
 }else{
     echo"请登录。";
+    
     header("Refresh:3 url=../login/project1.html");
 }
 ?>
